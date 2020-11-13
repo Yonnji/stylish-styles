@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    background: #222;
+    color: #eee;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+div, h1, h2, h3, h4, h5, h6, ul, li, p {
+    background: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+a, a:link, a:visited { color: #009ffa; }
+a, a:hover { color: #ddffff; }
+input[type="text"], input[type="password"], input[type="text"]:focus, input[type="submit"], input[type="submit"]:focus {
+    border-radius: 2px;
+    padding: 5px !important;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+input[type="text"], input[type="text"]:focus, input[type="password"], input[type="password"]:focus { background: #eee; color: #222; }
+input[type="text"], input[type="password"] { border: 1px solid #eee !important; }
+input[type="text"]:focus, input[type="password"]:focus { border: 1px solid #009ffa !important; }
+input[type="submit"], input[type="submit"]:focus {
+    border: 0 !important;
+    background: #006ffa !important;
+    color: #eee;
+    font-weight: 700;
+}
+input[type="submit"]:hover { background: #eee !important; color: #444; }
+#site-title { display: none; }
+#tag-sidebar img { margin: 20px 0; }
+#navbar a:hover { background: #444; color: #eee; }
+#navbar .current-page a, #navbar .current-page a:hover { background: #006ffa; color: #eee; }
+#subnavbar a:hover, #paginator a:hover { background: #eee !important; color: #006ffa !important; }
+#paginator a, #paginator b {
+    display: inline-block;
+    padding: 5px 10px !important;
+    margin: 2px !important;
+    border: 0 !important;
+    background: #006ffa;
+    color: #eee;
+    font-weight: 700;
+}
+#paginator b {
+    background: #eee;
+    color: #222;
+}
+.flat-list, .flat-list li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.flat-list li a {
+    display: inline-block;
+    padding: 10px !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+.flat-list .current-page { background: none !important; }
+.sidebar { width: 250px !important; }
+.sidebar h5 { font-size: 20px; margin-bottom: 10px; }
+.sidebar small { display: block; margin: 10px 0; }
+.sidebar input { width: 230px !important; }
+.sidebar input[name="commit"] { width: 242px !important; }
+.sidebar br { display: none; }
+.content { background: none !important; }
+.status-notice { background: #666 !important; }
+.form th { color: #eee !important; }
+.tag-type-copyright a { color: #f00; }
+.tag-type-character a { color: #0f0; }
+.tag-type-artist a { color: #ff0; }
+.tag-type-copyright a:hover, .tag-type-character a:hover, .tag-type-artist a:hover { color: #ddffff; }
